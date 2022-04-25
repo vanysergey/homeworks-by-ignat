@@ -1,0 +1,41 @@
+.divHW2 {
+    background: #70ef32;
+}
+
+.button {
+    margin: 10px;
+    width: 60px;
+
+    background: gray;
+    color: #f6e900;
+
+}
+
+.button:active {
+    background: #f6e900;
+}
+
+.active {
+    background: #8c8c8c;
+}
+
+.affair {
+    display: flex
+}
+
+.item {
+    margin: 10px;
+    width: 100px;
+}
+
+.high {
+    color: red;
+}
+
+.middle {
+    color: orange;
+}
+
+.low {
+    color: #ffffff;
+}

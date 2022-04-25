@@ -1,0 +1,51 @@
+.message_post {
+    background-color: #70ef32;
+    padding: 10px;
+}
+.message_block {
+    align-items: end;
+    display: grid;
+    grid-template-columns: 100px 360px;
+    justify-items: center;
+}
+.message_avatar {
+    border-radius: 500%;
+    width: 70px;
+}
+.message_message {
+    background: #8c8c8c;
+    border-radius: 10px 10px 10px 0;
+    color: #ffffff;
+    min-height: 0;
+    min-height: auto;
+    padding: 5px;
+    position: relative;
+    width: 350px;
+}
+.h2_message {
+    color: #f6e900;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.message_p {
+    margin: 5px;
+    text-align: justify;
+    word-wrap: break-word;  /*перенос текста который не влазит в контейнер сообщения*/
+}
+p.message_time {
+    float: right;
+    margin: 5px 15px 0;
+}
+.message_message:after {
+    background: radial-gradient(60px at top left,transparent 49%,#8c8c8c 51%) no-repeat 100% 100%;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 30px;
+    position: absolute;
+    right: 100%;
+    width: 30px;
+}
